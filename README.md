@@ -19,11 +19,15 @@ Then always source the .zshrc file to sync the shell with latest changes.
 source ~/.zshrc
 ```
 
+## Plugins
+
 To install plugins, clone the plugin and then add it to the plugins array in the .zshrc file.
 
 ```bash
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search [new-plugin...])
 ```
+
+Checkout the complete list of available [oh-my-zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/plugins).
 
 ### Synthax highlighting
 
@@ -42,7 +46,3 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-
-### Plugins
-
-Checkout the complete list of available [oh-my-zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/plugins).
