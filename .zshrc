@@ -168,3 +168,4 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(/Users/francescosansalvadore/.local/bin/mise activate zsh)" # added by https://mise.run/zsh
+eval "$(~/.local/bin/mise activate zsh)"
